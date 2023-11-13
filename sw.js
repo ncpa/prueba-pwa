@@ -2,6 +2,7 @@ const CACHE = 'cache-1';
 const CACHE_DINAMICO = 'dinamico-1';
 const CACHE_ESTATICO = 'estatico-1';
 const CACHE_INMUTABLE = 'inmutable-1';
+
 //Indicamos que durante el proceso de instalación
 self.addEventListener('install', evento=>{
     /*Promesa que crea el proceso de creación del espacio
