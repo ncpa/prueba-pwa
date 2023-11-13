@@ -29,6 +29,8 @@ self.addEventListener('install', evento=>{
         evento.waitUntil(Promise.all([promesa, cacheInmutable]));
 });
 
+
+
 self.addEventListener('fetch', evento =>{
 
     let rechazada = false;
